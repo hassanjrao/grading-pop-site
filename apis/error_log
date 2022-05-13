@@ -1,0 +1,57 @@
+[21-Sep-2021 09:48:57 America/Boise] PHP Warning:  include(includes/db.php): Failed to open stream: No such file or directory in /home1/valianx3/public_html/pop/apis/getCerts.php on line 3
+[21-Sep-2021 09:48:57 America/Boise] PHP Warning:  include(): Failed opening 'includes/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home1/valianx3/public_html/pop/apis/getCerts.php on line 3
+[21-Sep-2021 09:48:57 America/Boise] PHP Warning:  Undefined variable $conn in /home1/valianx3/public_html/pop/apis/getCerts.php on line 6
+[21-Sep-2021 09:48:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home1/valianx3/public_html/pop/apis/getCerts.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 6
+[21-Sep-2021 09:49:49 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 09:58:48 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 09:58:51 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 09:58:55 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 09:58:57 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 10:00:22 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 10:00:24 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 10:03:12 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 10:03:15 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9
+[21-Sep-2021 10:03:17 America/Boise] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'cert_numbers' in 'field list' in /home1/valianx3/public_html/pop/apis/getCerts.php:9
+Stack trace:
+#0 /home1/valianx3/public_html/pop/apis/getCerts.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/valianx3/public_html/pop/apis/getCerts.php on line 9

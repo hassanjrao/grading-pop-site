@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !^443$
+RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L] 
+RewriteEngine On  
+ RewriteRule ^card/([a-zA-Z0-9-/]+)$ card.php?cert_number=$1  
+ RewriteRule ^card/([a-zA-Z-0-9-]+)/ card.php?cert_number=$1 
